@@ -48,6 +48,7 @@ class EmployeeProvider with ChangeNotifier {
         empList.add(obj);
       }
       sList = List.from(empList);
+      notifyListeners();
     }
   }
 
